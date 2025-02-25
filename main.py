@@ -5,8 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 from pony.orm import *
 
-# APP_KEY = '10e65f37bb9c46ca8ab44cd6c7ccfafa'
-
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 project_root = os.path.dirname(current_dir)
